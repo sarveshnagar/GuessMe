@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Feb 04 17:14:42 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017e-c48d-001a-000003c7d268 
+on database directory memory:C:\Projects\Guess Me\GuessMe\66aa8e8e-2165-4931-ac17-f1d14a51f0e8 with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/admin/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_311-b11
+user.dir=C:\Projects\Guess Me\GuessMe
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
