@@ -1,6 +1,12 @@
 package io.word.guessmedata;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class GuessMe {
+
+   @Id
    private String id;
    private String word;
 

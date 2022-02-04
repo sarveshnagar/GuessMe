@@ -1,4 +1,7 @@
 package io.word.guessmedata;
 
-public class GuessMeRepository {
+import org.springframework.data.repository.CrudRepository;
+
+public interface GuessMeRepository extends CrudRepository<GuessMe,String> {
+
 }

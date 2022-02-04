@@ -12,8 +12,15 @@ public class GuessMeController {
 
     @RequestMapping("/word")
     public String getWord() {
-        String word = guessMe.getRandomWord();
+
+        String date = guessMe.getDate();
+        String previousDate = guessMe.getPreviousDate(date);
+        String word = null;
+        if (guessMe.checkDate(date)) {
+            word = guessMe.addWord(date, previousDate);
+        } else {
+            word = guessMe.getWord(date);
+        }
         return word;
     }
-
 }
